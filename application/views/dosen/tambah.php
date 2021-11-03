@@ -6,21 +6,21 @@
             <form class=" px-3 py-3">
             <div class="form-group">
                 <label for="exampleFormControlInput1">Judul Materi</label>
-                <input type="text" class="form-control" id="judul" placeholder="Judul materi" value="Materi 1">
+                <input type="text" class="form-control" id="judul" placeholder="Judul materi" value="">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Keterangan Materi</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Silahkan lihat dan pelajari materi yang telah saya berikan</textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" >
                 <label class="form-check-label" for="defaultCheck1">
                     Materi text<br>type data .doc / .pdf
                 </label>
                 <input type="file" class="form-control-file" id="exampleFormControlFile1"><br>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" >
                 <label class="form-check-label" for="defaultCheck1">
                     Materi video<br> type data.mp4 / .mkv
                 </label>

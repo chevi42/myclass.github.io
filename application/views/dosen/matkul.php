@@ -1,4 +1,3 @@
-
 <div class="container">
   <div class="row">
     <div class="col py-3">
@@ -21,7 +20,7 @@
   </div>
   <div class="row">
     <div class="col py-2">
-    <a class="btn btn-primary" href="#" role="button">Materi baru</a>
+    <a class="btn btn-primary" href="<?php echo base_url();?>dosen/tambah" role="button">Materi baru</a>
     </div>
   </div>   
   <div class="row">
@@ -33,7 +32,7 @@
                     <h5 class="card-title">Materi 1</h5>
                   </div>
                   <div class="col-1">
-                    <button type="button" class="btn btn-outline-primary">Edit</button></h5>
+                    <a type="button" class="btn btn-outline-primary" href="<?php echo base_url();?>dosen/edit">Edit</a></h5>
                   </div>
                 </div>
                 <h6 class="card-text">Silahkan lihat dan pelajari materi yang telah saya berikan</h6>
