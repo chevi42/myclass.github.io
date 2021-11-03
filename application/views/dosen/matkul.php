@@ -28,13 +28,44 @@
     <div class="col py-2">
         <div class="card" style="width: 60rem;">
             <div class="card-body">
-                <h5 class="card-title bg-primary text-white">Materi 1</h5>
+            <div class="row">
+                  <div class="col">
+                    <h5 class="card-title">Materi 1</h5>
+                  </div>
+                  <div class="col-1">
+                    <button type="button" class="btn btn-outline-primary">Edit</button></h5>
+                  </div>
+                </div>
                 <h6 class="card-text">Silahkan lihat dan pelajari materi yang telah saya berikan</h6>
                 <br>
-                <a href="#" class="card-link"></a>
-                <a href="#" class="card-link"></a>
+                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/text.png" height="40px"></a>
+                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/video.png" height="40px"></a>
+                <a href="#" class="card-link" style="visibility: hidden"><img src="<?php echo base_url();?>images/AR.png" height="40px"></a>
+                <a href="#" class="card-link" style="visibility: hidden"><img src="<?php echo base_url();?>images/VR.png" height="40px"></a>
             </div>
         </div>
     </div>
-  </div>   
+  </div>
+  <div class="row">
+    <div class="col py-2">
+        <div class="card" style="width: 60rem;">
+            <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h5 class="card-title">Materi 2</h5>
+                  </div>
+                  <div class="col-1">
+                    <button type="button" class="btn btn-outline-primary">Edit</button></h5>
+                  </div>
+                </div>
+                <h6 class="card-text">Silahkan pelajari rangkaian yang telah saya berikan</h6>
+                <br>
+                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/text.png" height="40px"></a>
+                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/video.png" height="40px"></a>
+                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/AR.png" height="40px"></a>
+                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/VR.png" height="40px"></a>
+            </div>
+        </div>
+    </div>
+  </div>      
 </div>
