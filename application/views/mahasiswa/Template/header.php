@@ -19,15 +19,15 @@
         <div class="img bg-wrap text-center py-4" style="background-image: url(<?php echo base_url()?>images/bclogin.jpg)">
           <div class="user-logo">
             <div> <img src="<?php echo base_url()?>images/user.png" height="100px" width="100px"></div>
-            <h3>Dosen 1</h3>
+            <h3>Mahasiswa 1</h3>
           </div>
         </div>
         <ul class="list-unstyled components mb-5">
           <li class="active">
-            <a href="<?php echo base_url() ?>dosen"><span class="fa fa-home mr-3"></span> Home</a>
+            <a href="<?php echo base_url() ?>mahasiswa"><span class="fa fa-home mr-3"></span> Home</a>
           </li>
           <li>
-            <a href="<?php echo base_url() ?>dosen"><span class="fa fa-support mr-3"></span> Profil</a>
+            <a href="<?php echo base_url() ?>mahasiswa/profil"><span class="fa fa-support mr-3"></span> Profil</a>
           </li>
           <li>
             <a href="<?php echo base_url() ?>login"><span class="fa fa-sign-out mr-3"></span> Sign Out</a>

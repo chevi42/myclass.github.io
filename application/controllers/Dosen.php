@@ -24,6 +24,22 @@ class Dosen extends CI_Controller{
         $this->load->view('dosen/template/footer.php');
     }
 
+    public function profil(){
+
+        $data['judul'] = 'Profile - MyClass STMIK Mardira Indonesia';
+        $this->load->view('dosen/template/header.php', $data);
+        $this->load->view('dosen/profil.php');
+        $this->load->view('dosen/template/footer.php');
+    }
+
+    public function eprofil(){
+
+        $data['judul'] = 'Edit Profile - MyClass STMIK Mardira Indonesia';
+        $this->load->view('dosen/template/header.php', $data);
+        $this->load->view('dosen/eprofil.php');
+        $this->load->view('dosen/template/footer.php');
+    }
+
     public function edit(){
 
         $data['judul'] ='Edit Materi - MyClass STMIK Mardira Indonesia';
