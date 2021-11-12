@@ -27,7 +27,7 @@
             <a href="<?php echo base_url() ?>dosen"><span class="fa fa-home mr-3"></span> Home</a>
           </li>
           <li>
-            <a href="<?php echo base_url() ?>dosen"><span class="fa fa-support mr-3"></span> Profil</a>
+            <a href="<?php echo base_url() ?>dosen/profil"><span class="fa fa-support mr-3"></span> Profil</a>
           </li>
           <li>
             <a href="<?php echo base_url() ?>login"><span class="fa fa-sign-out mr-3"></span> Sign Out</a>

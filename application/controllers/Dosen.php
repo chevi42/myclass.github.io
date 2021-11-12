@@ -55,6 +55,21 @@ class Dosen extends CI_Controller{
         $this->load->view('dosen/tambah.php');
         $this->load->view('dosen/template/footer.php');
     }
+    public function absen(){
+
+        $data['judul'] = 'Kehadiran Mahasiswa - MyClass STMIK Mardira Indonesia';
+        $this->load->view('dosen/template/header.php', $data);
+        $this->load->view('dosen/absen.php');
+        $this->load->view('dosen/template/footer.php');  
+    }
+
+    public function laporan(){
+
+        $data['judul'] = 'Laporan Kehadiran Mahasiswa - MyClass STMIK Mardira Indonesia';
+        $this->load->view('dosen/template/header.php', $data);
+        $this->load->view('dosen/laporan.php');
+        $this->load->view('dosen/template/footer.php');  
+    }
 
 }
 ?>

@@ -20,27 +20,34 @@
   </div>
   <div class="row">
     <div class="col py-2">
-    <a class="btn btn-primary" href="<?php echo base_url();?>dosen/tambah" role="button">Materi baru</a>
+    <a class="btn btn-primary btn-sm" href="<?php echo base_url();?>dosen/tambah" role="button">Materi baru</a>
     </div>
   </div>   
   <div class="row">
     <div class="col py-2">
         <div class="card" style="width: 60rem;">
             <div class="card-body">
-            <div class="row">
+                <div class="row">
                   <div class="col">
                     <h5 class="card-title">Materi 1</h5>
                   </div>
                   <div class="col-1">
-                    <a type="button" class="btn btn-outline-primary" href="<?php echo base_url();?>dosen/edit">Edit</a></h5>
+                    <a type="button" class="btn btn-outline-primary btn-sm" href="<?php echo base_url();?>dosen/edit">Edit</a></h5>
                   </div>
                 </div>
                 <h6 class="card-text">Silahkan lihat dan pelajari materi yang telah saya berikan</h6>
                 <br>
-                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/text.png" height="40px"></a>
-                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/video.png" height="40px"></a>
-                <a href="#" class="card-link" style="visibility: hidden"><img src="<?php echo base_url();?>images/AR.png" height="40px"></a>
-                <a href="#" class="card-link" style="visibility: hidden"><img src="<?php echo base_url();?>images/VR.png" height="40px"></a>
+                <div class="row">
+                  <div class="col-md-5">
+                    <a href="#" class="card-link"><img src="<?php echo base_url();?>images/text.png" height="40px"></a>
+                    <a href="#" class="card-link"><img src="<?php echo base_url();?>images/video.png" height="40px"></a>
+                    <a href="#" class="card-link" style="visibility: hidden"><img src="<?php echo base_url();?>images/AR.png" height="40px"></a>
+                    <a href="#" class="card-link" style="visibility: hidden"><img src="<?php echo base_url();?>images/VR.png" height="40px"></a>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <a href="<?php echo base_url();?>dosen/absen" class="btn btn-outline-primary btn-sm" role="button">Kehadiran</a>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
@@ -54,15 +61,22 @@
                     <h5 class="card-title">Materi 2</h5>
                   </div>
                   <div class="col-1">
-                    <button type="button" class="btn btn-outline-primary">Edit</button></h5>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Edit</button></h5>
                   </div>
                 </div>
                 <h6 class="card-text">Silahkan pelajari rangkaian yang telah saya berikan</h6>
                 <br>
-                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/text.png" height="40px"></a>
-                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/video.png" height="40px"></a>
-                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/AR.png" height="40px"></a>
-                <a href="#" class="card-link"><img src="<?php echo base_url();?>images/VR.png" height="40px"></a>
+                <div class="row">
+                  <div class="col-md-5">
+                    <a href="#" class="card-link"><img src="<?php echo base_url();?>images/text.png" height="40px"></a>
+                    <a href="#" class="card-link"><img src="<?php echo base_url();?>images/video.png" height="40px"></a>
+                    <a href="#" class="card-link"><img src="<?php echo base_url();?>images/AR.png" height="40px"></a>
+                    <a href="#" class="card-link"><img src="<?php echo base_url();?>images/VR.png" height="40px"></a>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                  <a href="<?php echo base_url();?>dosen/absen" class="btn btn-outline-primary btn-sm" role="button">Kehadiran</a>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
