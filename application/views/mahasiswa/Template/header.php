@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/dosen/style.css" />
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/dosen/profile.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
   </head>
 
   <body>
     <div class="wrapper d-flex align-items-stretch">
-      <nav id="sidebar">
+      <nav id="sidebar" style="min-width: 220px;	max-width: 220px; ">
         
         <div class="img bg-wrap text-center py-4" style="background-image: url(<?php echo base_url()?>images/bclogin.jpg)">
           <div class="user-logo">

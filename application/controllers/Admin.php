@@ -16,11 +16,35 @@ class Admin extends CI_Controller{
 
     }
     
+    public function damat(){
+
+        $data['judul'] = 'Pemograman Web IoT - MyClass STMIK Mardira Indonesia';
+        $this->load->view('admin/template/header.php', $data);
+        $this->load->view('admin/damat.php');
+        $this->load->view('admin/template/footer.php');
+    }
+
+    public function adddamat(){
+
+        $data['judul'] = 'Pemograman Web IoT - MyClass STMIK Mardira Indonesia';
+        $this->load->view('admin/template/header.php', $data);
+        $this->load->view('admin/adddamat.php');
+        $this->load->view('admin/template/footer.php');
+    }
+
     public function matkul(){
 
         $data['judul'] = 'Pemograman Web IoT - MyClass STMIK Mardira Indonesia';
         $this->load->view('admin/template/header.php', $data);
         $this->load->view('admin/matkul.php');
+        $this->load->view('admin/template/footer.php');
+    }
+
+    public function edamat(){
+
+        $data['judul'] = 'Pemograman Web IoT - MyClass STMIK Mardira Indonesia';
+        $this->load->view('admin/template/header.php', $data);
+        $this->load->view('admin/edamat.php');
         $this->load->view('admin/template/footer.php');
     }
 
@@ -71,19 +95,51 @@ class Admin extends CI_Controller{
         $this->load->view('admin/template/footer.php');  
     }
 
-    public function dosen(){
+    public function dados(){
 
         $data['judul'] = 'Data Dosen - MyClass STMIK Mardira Indonesia';
         $this->load->view('admin/template/header.php', $data);
-        $this->load->view('admin/dosen.php');
+        $this->load->view('admin/dados.php');
         $this->load->view('admin/template/footer.php');
     }
 
-    public function mahasiswa(){
+    public function adddados(){
+
+        $data['judul'] = 'Data Dosen - MyClass STMIK Mardira Indonesia';
+        $this->load->view('admin/template/header.php', $data);
+        $this->load->view('admin/adddados.php');
+        $this->load->view('admin/template/footer.php');
+    }
+
+    public function damas(){
 
         $data['judul'] = 'Data Mahasiswa - MyClass STMIK Mardira Indonesia';
         $this->load->view('admin/template/header.php', $data);
-        $this->load->view('admin/mahasiswa.php');
+        $this->load->view('admin/damas.php');
+        $this->load->view('admin/template/footer.php');
+    }
+
+    public function mprofil(){
+
+        $data['judul'] = 'Data Mahasiswa - MyClass STMIK Mardira Indonesia';
+        $this->load->view('admin/template/header.php', $data);
+        $this->load->view('admin/mprofil.php');
+        $this->load->view('admin/template/footer.php');
+    }
+
+    public function emprofil(){
+
+        $data['judul'] = 'Data Mahasiswa - MyClass STMIK Mardira Indonesia';
+        $this->load->view('admin/template/header.php', $data);
+        $this->load->view('admin/emprofil.php');
+        $this->load->view('admin/template/footer.php');
+    }
+
+    public function dapro(){
+
+        $data['judul'] = 'Data Mahasiswa - MyClass STMIK Mardira Indonesia';
+        $this->load->view('admin/template/header.php', $data);
+        $this->load->view('admin/dapro.php');
         $this->load->view('admin/template/footer.php');
     }
 

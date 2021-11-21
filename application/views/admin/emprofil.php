@@ -9,7 +9,7 @@
                     <h4 class="text-right">Edit Profile</h4>
                 </div>
                 <div class="row mt-3">
-                <div class="col-md-12"><label class="labels">NIM</label><input type="text" class="form-control" placeholder="nim" value="12345678" disabled></div>
+                <div class="col-md-12"><label class="labels">NIM</label><input type="text" class="form-control" placeholder="nim" value="12345678" ></div>
                     <div class="col-md-12"><label class="labels">Password</label><input type="password" class="form-control" placeholder="password" value="dosen1" ></div>
                     <div class="col-md-12"><label class="labels">Nama</label><input type="text" class="form-control" placeholder="Nama" value="Mahasiswa 1" ></div>
                     <div class="col-md-12"><label class="labels">Prodi</label><input type="text" class="form-control" placeholder="Nama" value="IFSI-S1" ></div>
