@@ -119,6 +119,14 @@ class Admin extends CI_Controller{
         $this->load->view('admin/template/footer.php');
     }
 
+    public function adddamas(){
+
+        $data['judul'] = 'Data Mahasiswa - MyClass STMIK Mardira Indonesia';
+        $this->load->view('admin/template/header.php', $data);
+        $this->load->view('admin/adddamas.php');
+        $this->load->view('admin/template/footer.php');
+    }
+
     public function mprofil(){
 
         $data['judul'] = 'Data Mahasiswa - MyClass STMIK Mardira Indonesia';
@@ -140,6 +148,22 @@ class Admin extends CI_Controller{
         $data['judul'] = 'Data Mahasiswa - MyClass STMIK Mardira Indonesia';
         $this->load->view('admin/template/header.php', $data);
         $this->load->view('admin/dapro.php');
+        $this->load->view('admin/template/footer.php');
+    }
+
+    public function adddapro(){
+
+        $data['judul'] = 'Data Mahasiswa - MyClass STMIK Mardira Indonesia';
+        $this->load->view('admin/template/header.php', $data);
+        $this->load->view('admin/adddapro.php');
+        $this->load->view('admin/template/footer.php');
+    }
+
+    public function edapro(){
+
+        $data['judul'] = 'Data Mahasiswa - MyClass STMIK Mardira Indonesia';
+        $this->load->view('admin/template/header.php', $data);
+        $this->load->view('admin/edapro.php');
         $this->load->view('admin/template/footer.php');
     }
 
